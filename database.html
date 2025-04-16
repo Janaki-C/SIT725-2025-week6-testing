@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Navbar Start-->
+  <nav class="black">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">SIT725-PAWS AND TAILS🐾🦴🐶🐕</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">BREEDS</a></li>
+        <li><a href="badges.html">ADOPTION</a></li>
+        <li><a href="collapsible.html">CARE TIPS</a></li>
+        <li> <a class='dropdown-trigger btn white black-text' href='#' data-target='dropdown1'>Drop Down!</a>
+
+          <!-- Dropdown -->
+          <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="#!">Find Your Match</a></li>
+            <li><a href="#!">Training Tricks</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a href="#!">Health and Wellness</a></li>
+            <li><a href="#!"><i class="material-icons"></i>Pet Care Essentials</a></li>
+            <li><a href="#!"><i class="material-icons"></i>Fun Dog Facts</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <!-- Navbar end -->
+
+    <!-- Adding A Databse -->
+    <div class="container">
+      <h2>ADDING A DATABASE</h2>
+      <form id="contentForm">
+        <label for="heading">Heading:</label>
+        <input type="text" id="heading" name="heading" placeholder="Enter heading" required>
+  
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" placeholder="Enter description" required></textarea>
+  
+        <label for="picture">Picture URL:</label>
+        <input type="url" id="picture" name="picture" placeholder="Enter picture URL" required>
+  
+        <button type="submit">Add Content</button>
+      </form>
+  
+      <h2>OUTPUT</h2>
+      <div id="contentArea"></div>
+    </div>
+
+
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/extra.js"></script>
+  <script type="text/javascript" src="js/colorchange.js"></script>
+
+</body>
+<footer class="page-footer black">
+  <div class="footer-copyright">
+    <div class="footer-container">
+        © 2025 Copyright @JanakiChaudhary. All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+</html>
